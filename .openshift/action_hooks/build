@@ -61,7 +61,7 @@ rm ${OPENSHIFT_DATA_DIR}/$NEXUS_APP_DIR/bin/jsw/linux-x86-64/wrapper
 curl -o ${OPENSHIFT_DATA_DIR}wrapper-delta-pack-3.5.9.tar.gz http://wrapper.tanukisoftware.com/download/3.5.9/wrapper-delta-pack-3.5.9.tar.gz
 tar -zxvf ${OPENSHIFT_DATA_DIR}wrapper-delta-pack-3.5.9.tar.gz -C ${OPENSHIFT_DATA_DIR}
 rm ${OPENSHIFT_DATA_DIR}wrapper-delta-pack-3.5.9.tar.gz
-cp ${OPENSHIFT_DATA_DIR}wrapper-delta-pack-3.5.9/lib/wrapper.jar ${OPENSHIFT_DATA_DIR}/$NEXUS_APP_DIR/bin/jsw/lib/wrapper.jar
+cp ${OPENSHIFT_DATA_DIR}wrapper-delta-pack-3.5.9/lib/wrapper.jar ${OPENSHIFT_DATA_DIR}/$NEXUS_APP_DIR/bin/jsw/lib/wrapper-3.2.3.jar
 cp ${OPENSHIFT_DATA_DIR}wrapper-delta-pack-3.5.9/bin/wrapper-linux-x86-64 ${OPENSHIFT_DATA_DIR}/$NEXUS_APP_DIR/bin/jsw/linux-x86-64/wrapper
 cp ${OPENSHIFT_DATA_DIR}wrapper-delta-pack-3.5.9/lib/libwrapper-linux-x86-64.so ${OPENSHIFT_DATA_DIR}/$NEXUS_APP_DIR/bin/jsw/lib/libwrapper.so
 
