@@ -53,3 +53,6 @@ ln -s $OPENSHIFT_DIY_LOG_DIR logs
 
 echo "ensuring pseudo userhome exists"
 mkdir -p $OPENSHIFT_DATA_DIR/userhome
+
+echo "editing wrapper conf"
+echo "wrapper.backend.type=PIPE" >> ${OPENSHIFT_DATA_DIR}/$NEXUS_APP_DIR/bin/jsw/conf/wrapper.conf
